@@ -35,9 +35,16 @@ ___
 
 ![Google IMage](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png)
 
+***bold italic style***
+
+-  **Italic Text**
 
 
+`Code` for CSV
 
+```- item ,Item id, cost
+- pizza, 2 ,150
+- burger,5,200```
 
 
 
