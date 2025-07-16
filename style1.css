@@ -1,0 +1,15 @@
+h1 {
+    color:#694ad8c9;
+
+.class {
+    background-color: aqua;
+    color: rgb(165, 14, 14);
+}
+
+#g1 {
+    color:blueviolet;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
