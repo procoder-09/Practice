@@ -1,0 +1,47 @@
+:root {
+  --font-main: 'Inter', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+}
+div {
+  font-family: "Merriweather", serif;
+    color:rgb(221, 100, 147);
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    line-height: 30px;
+    text-transform: capitalize;
+    white-space:nowrap;
+
+}
+html {
+     text-align: center;
+}
+h1 {
+    font-size: 5rem;
+    font-family: var(--font-heading);
+    text-decoration:underline;
+    text-transform:capitalize;
+    text-shadow: 3px 3px 4px rgba(80, 45, 236, 0.76);
+
+}
+p {
+    font-size: 5px;
+    border:2px solid blue;
+    padding:3px;
+    margin-bottom: 5px;
+}
+ul {
+    font-size: 2em;
+    padding-bottom: 2rem;
+    border:3px solid rgb(221, 100, 147);
+    line-height: 50px;
+    margin:4px;
+}
+
+body {
+      font-family: "Merriweather", serif;
+
+
+}
