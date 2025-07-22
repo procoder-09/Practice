@@ -1,0 +1,37 @@
+@import url(file1.css);
+#class {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width:200px;
+}
+#cal {
+  width:900px;
+  border:2px solid red;
+}
+.calc {
+  width:calc(100% - 40px);
+    border:2px solid rgb(96, 118, 208);
+
+}
+body {
+   background-image: url(https://billing.flourisense.in/wp-content/uploads/2022/11/css3.png);
+   background-repeat: no-repeat;
+   background-size: 400px;
+   background-color: aquamarine; 
+   color: crimson;
+  }
+.light {
+    font-style: italic;
+}
+h1  {
+  font-size: clamp(50px,50%,600px)
+
+}
+@media (max-width:769px) {
+  body {
+    font-size:14px;
+    background-color:brown;
+    color:bisque
+  }
+}
