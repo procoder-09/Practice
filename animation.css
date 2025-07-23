@@ -1,0 +1,23 @@
+button {
+    background-color: rgb(247, 136, 136);
+    color:black;
+    padding:4px 15px;
+    cursor: pointer;
+    transition: all 3s;
+}
+button:hover {
+    background-color: rgb(244, 199, 114);
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 5px;
+    animation: fade 3s;
+}
+@keyframes fade {
+    from
+    {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
