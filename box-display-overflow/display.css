@@ -1,0 +1,12 @@
+span {
+     background-color: #ce5959;
+    padding: 5px;
+    border: 5px solid rgba(205, 227, 206, 0.5);
+    margin:2px; 
+}  
+
+li {
+     background-color: aqua;
+     color: black;
+     margin:5px solid green;
+}
