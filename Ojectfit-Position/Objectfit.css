@@ -1,0 +1,14 @@
+#one {
+    width: 800px;
+    height: 80px;
+    object-fit: contain;
+    border:2px solid black;
+    margin-bottom: 10px;
+}
+#two {
+    width: 700px;
+    height: 120px;
+    display: block;
+    border: 2px solid black;
+    object-fit: cover;
+}
