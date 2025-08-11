@@ -1,0 +1,15 @@
+.container {
+    column-count: 3;
+    column-width: 200px;
+    column-rule: 2px solid red;
+    column-gap: 50px;
+
+}
+h1 {
+    column-span: all;
+}
+.container>div{
+    break-inside: avoid;
+    background-color: #f1b3b3;
+    margin-bottom: 10px;
+}
