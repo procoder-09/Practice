@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f0e2e2;
+  padding: 10px;
+}
+
+.ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.ul>a {
+  color: rgb(37, 34, 34);
+  background-color: #f8a1d2;
+  text-decoration: none;
+  width:200px;
+  height: 30px;
+  border:2px solid black;
+  text-align: center;
+}

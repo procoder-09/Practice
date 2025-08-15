@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-color: #a8d6f3;
+    height: 100vh;
+}
+.container>div {
+    background-color: #fff;
+    font-size: large;
+    width:150px;
+    /* height:50px; */
+    margin: 10px;
+    text-align: center;
+}
+.item6 {
+    /* order: 2; */
+    flex-shrink: 1;
+}
+.item9 {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.item1 {
+    align-self:normal;
+}
