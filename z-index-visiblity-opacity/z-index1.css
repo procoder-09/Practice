@@ -1,0 +1,45 @@
+div {
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+
+}
+ 
+.item1 {
+    background-color: #ee8a8a;
+    top:5px;
+    left:5px;
+    position: relative;
+}
+.item2 {
+        background-color: #8cd7f9;
+        top:-90px;
+        left:50px;
+        position: relative;
+        z-index: 5;
+
+}
+.item3 {
+        background-color: #8ff59e;
+        top:-150px;
+        left: 100px;
+        position: relative;
+        z-index: 3;
+}
+.item4 {
+    background-color: #db67aa;
+    position: relative;
+    top:-200px;
+    left:150px;
+    z-index: -1;
+
+}
+.item5 {
+        background-color: #7a70f0;
+        position: relative;
+        top:-250px;
+        left:200px;
+        opacity: 0.3;
+}
