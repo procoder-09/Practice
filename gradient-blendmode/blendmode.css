@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction:column ;
+}
+div {
+    left: 400px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    border:2px solid black;
+
+}
+.item1 {
+    background: linear-gradient(rgb(133, 52, 118),lightblue),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkoj4BZmD1KH2YPBIYWDrVUvthRhW_ik8Dg&s) no-repeat;
+    background-blend-mode:multiply ;
+}
+.item2 {
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXWhIuJnwn1LsneqCNXRILJ04El4E37YGMYQ&s) no-repeat,url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQseeNkeLBUsrVJsKy76-vGq7_4Xdn0JvYK7Q&s) no-repeat;
+    background-blend-mode:multiply;
+}
+.item3 {
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXWhIuJnwn1LsneqCNXRILJ04El4E37YGMYQ&s) no-repeat;
+    background-color: rgb(235, 119, 200);
+    background-blend-mode:hard-light;
+}

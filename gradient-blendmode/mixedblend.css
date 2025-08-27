@@ -1,0 +1,17 @@
+body {
+    background:cover;
+    background:url(https://media.gettyimages.com/id/591823914/photo/beautiful-girl-between-nature-full-of-branches-of-pine-tree.jpg?s=1024x1024&w=gi&k=20&c=o5SMbFfrs1Mkmr7hCjsdvHFpkkE8-9s_l7JHB4kUHn8=)  no-repeat;
+}
+
+div {
+    mix-blend-mode:multiply;
+    width: 150px;
+    height: 700px;
+    border: 2px solid black;
+    font-size: 50px;
+    left:0px;
+    position: relative;
+    color: aliceblue;
+    background-color: blue;
+
+}
