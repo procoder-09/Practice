@@ -1,0 +1,66 @@
+div {
+    width: 100px;
+    height: 50px;
+    left: 200px;
+    position: relative;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.item1 {
+    /* border-radius: 50%; */
+    background-color: red;
+    animation: example 4s ease-in-out 0.5s infinite;
+    position: relative;
+    
+}
+@keyframes example {
+    0%  { background-color: red;        left:200px; top: 0px; }
+    25% { background-color: lightblue;  left:400px; top:0px; }
+    50% { background-color: lightgreen; left:400px; top:200px; }
+    75% { background-color: yellow;     left:200px; top:200px; }
+    100% { background-color: red;       left:200px; top:0px; }
+
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-100px); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
+}
+
+.item2 {
+    background-color: greenyellow;
+  animation: slideIn 1s ease-out both infinite alternate-reverse;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(2.1); border-radius: 5px;background-color: lightblue; }
+}
+
+button {
+  /* animation: pulse 1.5s infinite ease-in-out; */
+  left: 200px;
+  position: relative;
+}
+button:hover {
+      animation: pulse 1.5s infinite ease-in-out;
+}
+
+
+.item3 {
+  background: linear-gradient(270deg, #ee532d, #7bdffe);
+  background-size: 400% 400%;
+  animation: gradientShift 3s ease infinite, fade 3s ease-in-out infinite;
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }s
+  100% { background-position: 100% 50%; }
+}
+@keyframes fade {
+  0%,100% {opacity: 0;}
+  50% {transform: rotateY(60deg),scale(1.5);opacity: 1; }
+}
